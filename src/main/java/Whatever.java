@@ -13,7 +13,9 @@ public class Whatever {
 
             return what;
         }
-        else {
+        else if(false) {
+            return "impossible to get here";
+        } else {
             return "nothing";
         }
     }
