@@ -12,6 +12,9 @@ public class Whatever {
 
 
             return what;
+        }
+        else if(false) {
+            return "impossible to get here";
         } else {
             return "nothing";
         }
