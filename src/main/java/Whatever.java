@@ -14,7 +14,10 @@ public class Whatever {
             return what;
         }
         else if(false) {
-            return "impossible to get here";
+            return "impossible to get hereeee";
+        }
+        else if(false) {
+            return "impossible to get hereeee tooo";
         } else {
             return "nothing";
         }
