@@ -10,7 +10,7 @@ public class WhateverTest {
     private Whatever whatever = new Whatever();
 
     @Test
-    public void returnWhatReturnsInput() {
+    public void dumbTest1() {
         // Arrange
         String what = "what";
 
@@ -19,5 +19,17 @@ public class WhateverTest {
 
         //Assert
         assertEquals(what, result);
+    }
+
+    @Test
+    public void dumbTest2() {
+        // Arrange
+        String what = "what";
+
+        //Act
+        String result = whatever.returnWhat(what, false);
+
+        //Assert
+        assertEquals("nothing", result);
     }
 }
