@@ -33,3 +33,6 @@ localtesting.xml
 *.log
 reportportal.lock
 reportportal.sync
+
+send-report-staging.sh
+send-report-dev.sh
